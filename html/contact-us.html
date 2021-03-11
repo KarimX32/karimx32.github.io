@@ -8,20 +8,25 @@
         Zion - Discord
     </title>
     <link rel="icon" href="./picture/big-icon.png" />
-    <link href="../css/report.css" rel="stylesheet" type="text/css">
+    <link href="../css/contact-us.css" rel="stylesheet" type="text/css">
 
     </head> 
     <body>
         
 
-        <a href="./commands.html">commands</a>
-        <a href="./index.html">Home</a>
-        <a href="./projects.html">projects</a>
-
         <h1>
-           Zion Report
+          Contact Us
         </h1>
 
+        <div class="contact-form">
+          <form id="contact-form" method="POST" action="contact-us-submit.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control" placeholder="Your Message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+          </form>
+        </div>
+        
         <div>
             <nav class="navbar">
               <div class="hamburger-menu">
@@ -32,7 +37,7 @@
       
               <ul class="nav-list">
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
+                  <a href="../index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="commands.html" class="nav-link">Commands</a>
@@ -41,7 +46,7 @@
                   <a href="projects.html" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="report.html" class="nav-link">Report</a>
+                    <a href="contact-us.html" class="nav-link">Contact Us</a>
                   </li>
               </ul>
             </nav>
